@@ -1,9 +1,14 @@
-// @import './reset';
-// @import './variables';
+@import './reset';
+@import './variables';
+@import './mixins';
 
-// @import './mixins';
-// @import './default';
+@import './default';
+@import './btns';
+@import './swiper';
 
-// @import './btns';
-// @import './header';
-// @import './footer';
+@import './navbar';
+@import './cards';
+
+@import './hesder';
+@import './sections';
+@import './footer';
