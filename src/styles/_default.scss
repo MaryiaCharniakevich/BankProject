@@ -50,3 +50,96 @@ body {
         color: $color-blue;
     }
 }
+
+.main {
+    padding: $p-2 0;
+    margin: $m-4 0;
+}
+
+// .logo {
+//     @include flex();
+
+
+//     &-title {
+//         @include transition();
+
+//         padding-left: $p-1;
+
+//         color: $color-white;
+//         font-weight: $font-w-500;
+//         text-decoration: none;
+
+//         &:hover {
+//             color: $color-green;   
+//             text-decoration: none;
+//         }
+//     }
+// }
+
+
+.modal {
+    backdrop-filter: blur(8px);
+
+    &-header {
+        background: $color-green;
+        color: $color-white;
+        border-bottom: none;
+    }
+
+    &_body {
+        background: $bg-card;
+
+    }
+}
+
+.close {
+    opacity: 1;
+    text-shadow: none;
+}
+
+
+
+
+.decorate {
+    color: $color-white;
+}
+
+
+.image {
+    width: 100%;
+
+    &__card {
+        position: absolute;
+        right: 0;
+        top: 5rem;
+
+        width: fit-content;
+        height: 80%;
+    }
+}
+
+
+.lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    padding: $p-2;
+}
+
+.checkout {
+    position: absolute;
+    top: -16rem;
+    right: 2rem;
+
+}
+
+.shape {
+    position: absolute;
+    left: 10rem;
+    top: -2rem;
+
+    z-index: 1;
+}

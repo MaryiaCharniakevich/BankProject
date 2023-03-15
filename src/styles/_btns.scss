@@ -17,6 +17,9 @@
     background: $color-green;
     box-shadow: 0 8px 15px $box-shadow-third;
 
+    cursor: pointer;
+
+
     &:hover {
         @include filter();
 
@@ -28,8 +31,7 @@
     }
 
     &__add {
-        color: $color-green;
-
+        color: $color-white;
     }
 
     &__up {
@@ -37,7 +39,7 @@
         right: 20px;
         bottom: 0;
 
-        cursor: pointer;
+       
 
         &_hide {
             display: none;
