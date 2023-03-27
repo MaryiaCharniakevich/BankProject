@@ -1,0 +1,79 @@
+.navbar {
+    position: absolute;
+    
+
+    &-lists {
+        @include flex();
+        right: 0px;
+     
+    }
+
+    &__list {
+        @include flex();
+        @include transition();
+
+        list-style: none;
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    &__link {
+        @include transition();
+
+        position: relative;
+
+        text-decoration: none;
+        line-height: 30px;
+        color: $color-white;
+        font-size: 14px;
+
+        &:hover {
+            cursor: pointer;
+            color: $color-green;
+            text-decoration: none;
+            transition: all .5s;
+        }
+    }
+}
+
+.badge {
+    position: absolute;
+    left: 5rem;
+}
+
+
+
+
+
+
+
+// .lists {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+//     flex-wrap: wrap;
+    
+//     padding: 2rem;
+//   } 
+
+.list {
+    list-style: none;
+    display: block;
+    padding: $p-1;
+    margin-top: $m-2;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: $p-1;
+
+    transition: all .5s;
+
+    &:hover {
+        cursor: pointer;
+        color: $color-green;
+        text-decoration: none;
+    }
+}
